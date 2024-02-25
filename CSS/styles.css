@@ -1,0 +1,184 @@
+/*- Variables -*/
+:root{
+    --color--principal: ;
+    --fondo--navbar: rgb(255, 255, 0);
+    --color--secundario: ;
+    --fuente--principal: ;
+}
+
+/*------------------------------*/
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*- Barra de Navegación -*/
+nav img{
+    height: 3rem;
+    width: 3rem;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    background-color: var(--fondo--navbar);
+    padding: 0.5rem;
+}
+
+/*- Presentación -*/
+.Presentacion{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.Presentacion--Arriba{
+    display: flex;
+    align-items: center;
+}
+
+.Presentacion--Arriba img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 5rem;
+} 
+
+.Presentacion--Abajo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Presentacion--Abajo h1{
+    margin: 0;
+    font-size: 3rem;
+}
+
+.Presentacion--Abajo h2{
+    margin-top: 0.5rem;
+}
+
+.Presentacion--Abajo p{
+    margin-top: -1rem;
+}
+
+.Enlaces--Contacto{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 1rem;
+    letter-spacing: .05rem;
+    padding: 0;
+
+}
+
+.Enlaces--Contacto a{
+    display: flex;
+    align-items: center;
+    background-color: var(--fondo--navbar);
+    color: black;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 3.125rem;
+    gap: 0.4375rem;
+    font-weight: 800;
+}
+
+.Enlaces--Contacto a img{
+    width: 1.65rem;
+    height: 1.65rem;
+}
+
+.Email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 1.5rem;
+}
+
+.Email a{
+    display: flex;
+    align-items: center;
+    background-color: var(--fondo--navbar);
+    color: black;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: 800;
+    border-top-left-radius: 3.125rem;
+    border-bottom-left-radius: 3.125rem;
+}
+
+.Email button{
+    background-color: var(--fondo--navbar) ;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-top-right-radius: 3.125rem;
+    border-bottom-right-radius: 3.125rem;
+    padding-right: 2.5rem;
+}
+
+.Email button img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/*- Habilidades -*/
+.Titulo--Habilidades{
+    display: flex;
+
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    gap: 1rem;
+}
+
+.Habilidades--Imagenes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.Habilidades--Imagenes article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.3125rem;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #171f26;
+    border-radius: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.Habilidades--Imagenes article h4{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/*- Experiencia -*/
+
+
+/*- Eduación -*/
+
+
+/*- Proyectos -*/
+
+
+/*- Footer -*/
+
+
+
