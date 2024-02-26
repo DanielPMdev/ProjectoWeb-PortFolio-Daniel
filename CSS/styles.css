@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
 /*- Variables -*/
 :root{
     --color--principal: ;
-    --fondo--navbar: rgb(255, 255, 0);
     --color--secundario: ;
-    --fuente--principal: ;
+    --fondo--navbar: rgb(255, 255, 0);
+    --fondo--habilidades: ;
+    --fondo--hover1: ;
+    --fondo--hover1: ;
+    --fuente--principal: "Anta";
 }
+
 
 /*------------------------------*/
 body{
+    font-family: var(--fuente--principal) ;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -55,14 +62,17 @@ nav{
 .Presentacion--Abajo h1{
     margin: 0;
     font-size: 3rem;
+    text-align: center;
 }
 
 .Presentacion--Abajo h2{
     margin-top: 0.5rem;
+    text-align: center;
 }
 
 .Presentacion--Abajo p{
     margin-top: -1rem;
+    text-align: center;
 }
 
 .Enlaces--Contacto{
@@ -161,6 +171,11 @@ nav{
     background-color: #171f26;
     border-radius: 2.5rem;
     margin-bottom: 2rem;
+    
+}
+
+.Habilidades--Imagenes article:hover{
+    box-shadow: 0 0 4px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000;
 }
 
 .Habilidades--Imagenes article h4{
