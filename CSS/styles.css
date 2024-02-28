@@ -289,8 +289,63 @@ nav{
 
 /*- Footer -*/
 footer{
-    background-color: var(--fondo--navbar);
-    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
 }
 
+.Footer--Principal{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
 
+.Footer--Logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3rem;
+}
+
+.Footer--Logo img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.Footer--Derecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Footer--Botones{
+    display: flex;
+    gap: 4rem;
+}
+
+.Footer--Botones a{
+    display: flex;
+    align-items: center;
+    background-color: var(--fondo--navbar);
+    color: black;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 3.125rem;
+    gap: 0.4375rem;
+    font-weight: 800;
+}
+
+.Footer--Botones a img{
+    width: 1.65rem;
+    height: 1.65rem;
+}
+
+.Footer--Secundario{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
