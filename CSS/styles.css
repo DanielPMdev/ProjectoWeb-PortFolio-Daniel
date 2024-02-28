@@ -295,17 +295,14 @@ footer{
 
 .Footer--Principal{
     display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 1rem;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
 
 .Footer--Logo{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    padding: 3rem;
+    padding: 0.25rem;
 }
 
 .Footer--Logo img{
@@ -319,11 +316,18 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-left: 2px solid black;
+    padding-bottom: 1rem;
+}
+
+.Footer--Texto{
+    display: flex;
+    flex-direction: column;
 }
 
 .Footer--Botones{
     display: flex;
-    gap: 4rem;
+    gap: 2.5rem;
 }
 
 .Footer--Botones a{
