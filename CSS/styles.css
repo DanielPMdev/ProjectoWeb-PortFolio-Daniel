@@ -33,6 +33,49 @@ nav{
     padding: 0.5rem;
 }
 
+.movil--menu{
+    display: none;
+   
+}
+
+.movilmenu--contenido{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4.4rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.botoncerrar{
+    position: absolute;
+    left: 78%;
+
+}
+
+.movilmenu--botoncerrar{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.movilmenu--links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.movilmenu--links a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
 /*- Presentación -*/
 .Presentacion{
     display:flex;
@@ -137,6 +180,7 @@ nav{
     border-top-right-radius: 3.125rem;
     border-bottom-right-radius: 3.125rem;
     padding-right: 2.5rem;
+    cursor: pointer;
 }
 
 .Email button img{
@@ -333,7 +377,6 @@ nav{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 0.625rem;
     margin-bottom: 0.625rem;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
