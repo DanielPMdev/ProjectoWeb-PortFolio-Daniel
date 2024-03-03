@@ -144,7 +144,10 @@ nav{
     height: 1.5rem;
 }
 
-
+#copyNotification{
+    display: none;
+    margin-left: 0.635rem;
+}
 
 
 /*- Habilidades -*/
