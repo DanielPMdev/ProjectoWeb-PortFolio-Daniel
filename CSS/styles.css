@@ -144,6 +144,9 @@ nav{
     height: 1.5rem;
 }
 
+
+
+
 /*- Habilidades -*/
 
 .Titulo--Habilidades{
@@ -269,7 +272,7 @@ nav{
 }
 
 .Educacion--Grados ul{
-    margin: 1rem 0 1rem 2rem;
+    margin: 1rem 0 1rem 1.85rem;
 }
 
 .Educacion--Grados li{
@@ -285,6 +288,82 @@ nav{
 .Titulo--Proyecto{
     display: flex;
     justify-content: center;
+}
+
+.Proyectos-Items{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 0.625rem;
+}
+
+.Proyectos--Portada{
+    display: flex;
+    justify-content: center;
+}
+
+.Proyectos--Portada img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.75;
+}
+
+.Proyectos--Informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.Proyectos--Informacion h4{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+}
+
+.Proyectos--Informacion p{
+    margin-top: 0;
+    padding-bottom: 1rem;
+}
+
+.Proyectos--Tecnologias{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    margin-bottom: 0.625rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.Proyectos--Tecnologias span{
+    background-color: var(--fondo--navbar);
+    color: black;
+    margin: 0.625rem;
+    padding: 0.625rem;
+    border-radius: 3.125rem;
+}
+
+.Proyectos--Botones{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.Proyectos--Botones a{
+    display: flex;
+    align-items: center;
+    background-color: var(--fondo--navbar);
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3.125rem;
+    padding: 0.25rem;
+}
+
+.Proyectos--Botones a p{
+    margin: 0;
+    padding: 0;
 }
 
 /*- Footer -*/
@@ -312,9 +391,9 @@ footer{
 
 .Footer--Derecha{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     text-align: center;
     border-left: 2px solid black;
     padding-bottom: 1rem;
@@ -323,6 +402,11 @@ footer{
 .Footer--Texto{
     display: flex;
     flex-direction: column;
+}
+
+.Footer--Texto p{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .Footer--Botones{
@@ -336,7 +420,6 @@ footer{
     background-color: var(--fondo--navbar);
     color: black;
     line-height: 1.5rem;
-    font-size: 1rem;
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 3.125rem;
