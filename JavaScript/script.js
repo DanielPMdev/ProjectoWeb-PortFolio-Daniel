@@ -55,3 +55,13 @@ for (var i = 0; i < enlacesMenu.length; i++) {
     });
 }
 
+
+function cambiarIdioma() {
+    var selector = document.getElementById("idioma");
+    var idioma = selector.options[selector.selectedIndex].value;
+    if (idioma == "es") {
+        window.location.href = "index.html"
+    } else if (idioma == "en") {
+        window.location.href = "./Idiomas/ingles.html";
+    }
+}

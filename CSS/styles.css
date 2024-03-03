@@ -69,11 +69,35 @@ nav{
     margin-top: 3rem;
 }
 
-.movilmenu--links a{
+.Enlaces--Menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.Enlaces--Menu a{
     text-decoration: none;
     color: black;
     padding: 1rem;
     border-bottom: 1px solid black;
+}
+
+.Idioma{
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    margin-bottom: 3rem;
+}
+
+.Idioma select{
+    font-family: var(--fuente--principal) ;
+    background: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;;
 }
 
 /*- Presentación -*/
