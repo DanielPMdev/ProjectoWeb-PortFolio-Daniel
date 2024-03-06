@@ -15,7 +15,29 @@
                 <img src="./Imagenes/Fondo-Provisional-Negro.png" alt="Logo de Marca Personal, Daniel Porras">
             </div>
             <div class="menu--enlaces">
-
+                <a href="#Presentacion"><span>Presentacion</span></a>
+                <a href="#Habilidades"><span>Habilidades</span></a>
+                <a href="#Experiencia"><span>Experiencia</span></a>
+                <a href="#Educacion"><span>Educacion</span></a>                        
+                <a href="#Proyectos"><span>Proyectos</span></a>
+                <div class="IdiomaNav">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" 
+                        stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" 
+                        font-size="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)">
+                        <path d="M15,13h25c1.104,0 2,0.896 2,2v25c0,1.104 -0.896,2 -2,2h-14z" fill="#8c9295"></path>
+                        <path d="M26.832,34.854l-0.916,-1.776l0.889,-0.459c0.061,-0.031 6.101,-3.208 9.043,-9.104l0.446,-0.895l1.79,0.893l-0.447,0.895c-3.241,6.496 -9.645,9.85 -9.916,9.989z" 
+                        fill="#000000"></path>
+                        <path d="M38.019,34l-0.87,-0.49c-0.207,-0.116 -5.092,-2.901 -8.496,-7.667l1.627,-1.162c3.139,4.394 7.805,7.061 7.851,7.087l0.869,0.492zM26,22h14v2h-14z" fill="#000000"></path>
+                        <path d="M32,20h2v4h-2z" fill="#000000"></path><path d="M33,35h-25c-1.104,0 -2,-0.896 -2,-2v-25c0,-1.104 0.896,-2 2,-2h14z" fill="#000000"></path>
+                        <path d="M26,42l-3,-7h10z" fill="#565860"></path><path d="M19.172,24h-4.36l-1.008,3h-2.804l4.764,-13h2.444l4.792,13h-2.805zM15.444,22h3.101l-1.559,-4.714z" fill="#ffffff"></path></g></g>
+                    </svg>
+                    <select name="idioma" id="idioma" class="botonidioma" onchange="cambiarIdioma()">
+                        <option value="es">Español</option>
+                        <option value="en">Ingles</option>
+                    </select>
+                </div>
             </div>
             <div class="menu">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="50" viewBox="0 0 50 50">
@@ -36,14 +58,14 @@
                         <a href="#Habilidades"><span>Habilidades</span></a>
                         <a href="#Experiencia"><span>Experiencia</span></a>
                         <a href="#Educacion"><span>Educacion</span></a>
-                        <a href="#Proyectos"><span>Proyectos</span></a>
+                        <a href="#Proyectos"><span>Proyectos</span></a>                        
                         </div>
                         <div class="Idioma">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0,0,256,256"
                                 style="fill:#000000;">
                                 <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" 
-                                stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" 
-                                font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)">
+                                stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" 
+                                font-size="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)">
                                 <path d="M15,13h25c1.104,0 2,0.896 2,2v25c0,1.104 -0.896,2 -2,2h-14z" fill="#8c9295"></path>
                                 <path d="M26.832,34.854l-0.916,-1.776l0.889,-0.459c0.061,-0.031 6.101,-3.208 9.043,-9.104l0.446,-0.895l1.79,0.893l-0.447,0.895c-3.241,6.496 -9.645,9.85 -9.916,9.989z" 
                                 fill="#000000"></path>
@@ -51,7 +73,7 @@
                                 <path d="M32,20h2v4h-2z" fill="#000000"></path><path d="M33,35h-25c-1.104,0 -2,-0.896 -2,-2v-25c0,-1.104 0.896,-2 2,-2h14z" fill="#000000"></path>
                                 <path d="M26,42l-3,-7h10z" fill="#565860"></path><path d="M19.172,24h-4.36l-1.008,3h-2.804l4.764,-13h2.444l4.792,13h-2.805zM15.444,22h3.101l-1.559,-4.714z" fill="#ffffff"></path></g></g>
                             </svg>
-                            <select name="idioma" id="idioma" onchange="cambiarIdioma()">
+                            <select name="idioma2" id="idioma2" class="botonidioma" onchange="cambiarIdioma()">
                                 <option value="es">Español</option>
                                 <option value="en">Ingles</option>
                             </select>
@@ -121,7 +143,6 @@
                     <h4>Git</h4>
                     <img src="./Imagenes/icons8-git-96.png" alt="Logo de Git">
                 </article>
-    
             </div>
         </section>
         <section class="Experiencia" id="Experiencia">
@@ -159,49 +180,51 @@
             <div class="Titulo--Proyecto">
                 <h3>Proyectos</h3>
             </div>
-            <div class="Proyectos-Items">
-                <div class="Proyectos--Portada">
-                    <img src="./Imagenes/Projectos/andre-reis-1_DAlXy0wng-unsplash.jpg" alt="">
-                </div>
-                <div class="Proyectos--Informacion">
-                    <h4>Barbería Web</h4>
-                    <p>Desarrollo de una página web responsive para una barbería, facilitando la reserva online y mejorando la presencia digital del negocio   </p>
-                    <p>Ahorrando tiempo al cliente y mejorando la experiencia del usuario</p>
-                    <div class="Proyectos--Tecnologias">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Astro</span>
-                        <span>Tailwind</span>
+            <div class="Proyectos--Total">
+                <div class="Proyectos-Items">
+                    <div class="Proyectos--Portada">
+                        <img src="./Imagenes/Projectos/andre-reis-1_DAlXy0wng-unsplash-redimensionada.jpg" alt="">
                     </div>
-                    <div class="Proyectos--Botones">
-                        <a href="https://github.com/DanielPMdev" target="_blank">
-                            <img src="./Imagenes/icons8-github.svg" alt="Logo de GitHub">
-                            <p>GitHub Link</p>
-                        </a>
+                    <div class="Proyectos--Informacion">
+                        <h4>Barbería Web</h4>
+                        <p>Desarrollo de una página web responsive para una barbería, facilitando la reserva online y mejorando la presencia digital del negocio   </p>
+                        <p>Ahorrando tiempo al cliente y mejorando la experiencia del usuario</p>
+                        <div class="Proyectos--Tecnologias">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Astro</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="Proyectos--Botones">
+                            <a href="https://github.com/DanielPMdev" target="_blank">
+                                <img src="./Imagenes/icons8-github.svg" alt="Logo de GitHub">
+                                <p>GitHub Link</p>
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="Proyectos-Items">
-                <div class="Proyectos--Portada">
-                    <img src="./Imagenes/Projectos/campofutbol.jpg" alt="">
-                </div>
-                <div class="Proyectos--Informacion">
-                    <h4>Triana CF - Pagina Web</h4>
-                    <p>Desarrollo de una página web responsive para el equipo de mi pueblo, facilitando la consulta de informacion </p>
-                    <p>Gestión de calendario y clasificación </p>
-                    <div class="Proyectos--Tecnologias">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Astro</span>
-                        <span>Tailwind</span>
+                </div>            
+                <div class="Proyectos-Items">
+                    <div class="Proyectos--Portada">
+                        <img src="./Imagenes/Projectos/campofutbol.jpg" alt="">
                     </div>
-                    <div class="Proyectos--Botones">
-                        <a href="https://github.com/DanielPMdev" target="_blank">
-                            <img src="./Imagenes/icons8-github.svg" alt="Logo de GitHub">
-                            <p>GitHub Link</p>
-                        </a>
+                    <div class="Proyectos--Informacion">
+                        <h4>Triana CF - Pagina Web</h4>
+                        <p>Desarrollo de una página web responsive para el equipo de mi pueblo, facilitando la consulta de informacion </p>
+                        <p>Gestión de calendario y clasificación </p>
+                        <div class="Proyectos--Tecnologias">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Astro</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="Proyectos--Botones">
+                            <a href="https://github.com/DanielPMdev" target="_blank">
+                                <img src="./Imagenes/icons8-github.svg" alt="Logo de GitHub">
+                                <p>GitHub Link</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

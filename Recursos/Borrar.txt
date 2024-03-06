@@ -1,0 +1,10 @@
+<div class="Educacion--Grados" id="BCR">
+                <h5>Septiembre, 2018 - Junio, 2020</h5>
+                <h4>Bachillerato Cientifico-Técnologico</h4>
+                <h5>IES San Juan del Castillo, Belmonte</h5>
+                <ul>
+                    <li>Estudiamos las leyes fundamentales de la física</li>
+                    <li>Exploramos el fascinante mundo de las matemáticas y su aplicación en la tecnología</li>
+                    <li>Desarrollamos habilidades de pensamiento crítico</li>
+                </ul>
+            </div>

@@ -33,9 +33,34 @@ nav{
     padding: 0.5rem;
 }
 
+.menu--enlaces{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 2rem;
+}
+
+.menu--enlaces a{
+    text-decoration: none;
+    color: black;
+}
+
+.IdiomaNav{
+    display: flex;
+    align-items: center;
+}
+
+.IdiomaNav select{
+    font-family: var(--fuente--principal) ;
+    background: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;;
+}
+
 .movil--menu{
-    display: none;
-   
+    display: none;   
 }
 
 .movilmenu--contenido{
@@ -376,7 +401,7 @@ nav{
 .Proyectos--Portada img{
     width: 100%;
     height: 100%;
-    border-radius: 0.75;
+    border-radius: 0.75rem;
 }
 
 .Proyectos--Informacion{
@@ -467,6 +492,7 @@ footer{
     text-align: center;
     border-left: 2px solid black;
     padding-bottom: 1rem;
+    flex-grow: 1;
 }
 
 .Footer--Texto{
@@ -505,4 +531,83 @@ footer{
 .Footer--Secundario{
     text-align: center;
     border-bottom: 2px solid black;
+}
+
+
+
+/* Media Querries*/
+@media only screen and (max-width: 867px) {
+    /* Para movil: */
+    .menu--enlaces{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 868px) {
+/* Para escritorio: */
+
+    /* Barra Navegación */
+    nav{
+        
+    }
+    
+    .menu--logo img{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .menu--enlaces{
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    /* Presentación */
+
+
+    /* Habilidades */
+    .Habilidades--Imagenes{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .Habilidades--Imagenes article{
+        
+    }
+
+    /* Educación */
+
+
+    /* Proyectos */
+    .Proyectos--Total{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .Proyectos-Items{
+    }
+
+    .Proyectos--Portada img{
+    }
+
+    .Proyectos--Informacion{
+        align-items: center;
+    }
+
+    .Proyectos--Informacion > p:nth-of-type(-n+2) {
+        width: 75%;
+        text-align: center;
+    }
+    
+
+
+    /* Footer */
+    .Footer--Derecha{
+        margin-right: 2.5rem;
+    }
+
 }
