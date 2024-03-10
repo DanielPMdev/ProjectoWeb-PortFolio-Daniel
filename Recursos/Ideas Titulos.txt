@@ -1,3 +1,0 @@
-1. <h1 style="font-family: 'Pacifico', cursive; font-size: 48px; color: #ffffff; text-align: center; background: linear-gradient(to right, #ff5f6d, #ffc371); -webkit-background-clip: text; -webkit-text-fill-color: transparent; box-shadow: 0 0 20px rgba(0,0,0,0.1);">Herramientas</h1>
-
-2. <h1 style="font-family: 'Roboto', sans-serif; font-size: 40px; color: #ffffff; text-align: center; background: url(https://freefrontend.com/css-text-effects/) no-repeat center; background-size: cover; padding: 20px; text-shadow: 0 0 10px rgba(0,0,0,0.5);">Bienvenido a mi página web</h1>
