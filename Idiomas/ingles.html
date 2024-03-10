@@ -3,9 +3,266 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio - Daniel Porras</title>
+    <link rel="shortcut icon" href="../Imagenes/Fondo-Provisional-Negro.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="../JavaScript/script.js" defer></script>
 </head>
-<body>
-    
+<body> 
+        <nav>
+            <div class="menu--logo">
+                <img src="../Imagenes/Fondo-Provisional-Negro.png" alt="Personal Brand Logo, Daniel Porras">
+            </div>
+            <div class="menu--enlaces">
+                <a href="#Presentacion"><span>Presentation</span></a>
+                <a href="#Habilidades"><span>Skills</span></a>
+                <a href="#Experiencia"><span>Experience</span></a>
+                <a href="#Educacion"><span>Education</span></a>                        
+                <a href="#Proyectos"><span>Projects</span></a>
+                <div class="IdiomaNav">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" 
+                        stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" 
+                        font-size="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)">
+                        <path d="M15,13h25c1.104,0 2,0.896 2,2v25c0,1.104 -0.896,2 -2,2h-14z" fill="#8c9295"></path>
+                        <path d="M26.832,34.854l-0.916,-1.776l0.889,-0.459c0.061,-0.031 6.101,-3.208 9.043,-9.104l0.446,-0.895l1.79,0.893l-0.447,0.895c-3.241,6.496 -9.645,9.85 -9.916,9.989z" 
+                        fill="#000000"></path>
+                        <path d="M38.019,34l-0.87,-0.49c-0.207,-0.116 -5.092,-2.901 -8.496,-7.667l1.627,-1.162c3.139,4.394 7.805,7.061 7.851,7.087l0.869,0.492zM26,22h14v2h-14z" fill="#000000"></path>
+                        <path d="M32,20h2v4h-2z" fill="#000000"></path><path d="M33,35h-25c-1.104,0 -2,-0.896 -2,-2v-25c0,-1.104 0.896,-2 2,-2h14z" fill="#000000"></path>
+                        <path d="M26,42l-3,-7h10z" fill="#565860"></path><path d="M19.172,24h-4.36l-1.008,3h-2.804l4.764,-13h2.444l4.792,13h-2.805zM15.444,22h3.101l-1.559,-4.714z" fill="#ffffff"></path></g></g>
+                    </svg>
+                    <select name="idioma" id="idioma" class="botonidioma" onchange="cambiarIdioma('idioma')">                        
+                        <option value="en">English</option>
+                        <option value="es">Spanish</option>
+                    </select>
+                </div>
+            </div>
+            <div class="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="50" viewBox="0 0 50 50">
+                    <path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"></path>
+                </svg>
+            </div>
+        </nav>
+        <div class="movil--menu">
+                <div class="movilmenu--contenido">
+                    <div class="botoncerrar">
+                        <button class="movilmenu--botoncerrar">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="30" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M18 6l-12 12"></path><path d="M6 6l12 12"></path></svg>                       
+                        </button>
+                    </div>
+                    <div class="movilmenu--links">
+                        <div class="Enlaces--Menu">
+                        <a href="#Presentacion"><span>Presentation</span></a>
+                        <a href="#Habilidades"><span>Skills</span></a>
+                        <a href="#Experiencia"><span>Experience</span></a>
+                        <a href="#Educacion"><span>Education</span></a>
+                        <a href="#Proyectos"><span>Projects</span></a>                        
+                        </div>
+                        <div class="Idioma">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0,0,256,256"
+                                style="fill:#000000;">
+                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" 
+                                stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" 
+                                font-size="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)">
+                                <path d="M15,13h25c1.104,0 2,0.896 2,2v25c0,1.104 -0.896,2 -2,2h-14z" fill="#8c9295"></path>
+                                <path d="M26.832,34.854l-0.916,-1.776l0.889,-0.459c0.061,-0.031 6.101,-3.208 9.043,-9.104l0.446,-0.895l1.79,0.893l-0.447,0.895c-3.241,6.496 -9.645,9.85 -9.916,9.989z" 
+                                fill="#000000"></path>
+                                <path d="M38.019,34l-0.87,-0.49c-0.207,-0.116 -5.092,-2.901 -8.496,-7.667l1.627,-1.162c3.139,4.394 7.805,7.061 7.851,7.087l0.869,0.492zM26,22h14v2h-14z" fill="#000000"></path>
+                                <path d="M32,20h2v4h-2z" fill="#000000"></path><path d="M33,35h-25c-1.104,0 -2,-0.896 -2,-2v-25c0,-1.104 0.896,-2 2,-2h14z" fill="#000000"></path>
+                                <path d="M26,42l-3,-7h10z" fill="#565860"></path><path d="M19.172,24h-4.36l-1.008,3h-2.804l4.764,-13h2.444l4.792,13h-2.805zM15.444,22h3.101l-1.559,-4.714z" fill="#ffffff"></path></g></g>
+                            </svg>
+                            <select name="idioma2" id="idioma2" class="botonidioma" onchange="cambiarIdioma('idioma2')">
+                                <option value="en">English</option>
+                                <option value="es">Spanish</option>                                
+                            </select>
+                        </div>
+                        <div class="Apariencia">
+                            <!--Implementar botón para cambiar apariencia-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <section class="Presentacion" id="Presentacion">
+            <div class="Presentacion--Arriba">
+                <img src="../Imagenes/Avatar_Prueba-removebg-preview.png" alt="Photo of Daniel Porras">
+            </div>
+            <div class="Presentacion--Abajo">
+                <h1 class="Titulo--H1" id="h1">Daniel Porras</h1>
+                <h2>DAM Student</h2>
+                <p>Transforming lines of code into creative solutions</p>
+                <div class="Enlaces--Contacto">
+                    <a href="../Recursos/Daniel_Porras_Morales-CV.pdf" target="_blank">Download CV</a>
+                    <a href="https://www.linkedin.com/in/daniel-porras-morales/" target="_blank">
+                        <img src="../Imagenes/Icono-SVG-LinkedIn.svg" alt="LinkedIn Icon">
+                    </a>
+                    <a href="https://github.com/DanielPMdev" target="_blank">
+                        <img src="../Imagenes/icons8-github.svg" alt="GitHub Logo">
+                    </a>
+                </div>
+                <div class="Email">
+                        <a href="mailto:danielpm.dev@gmail.com">danielpm.dev@gmail.com</a>
+                        <button>
+                            <img src="../Imagenes/icons8-copy-50.png" alt="Button to copy Daniel Porras email">
+                        </button>
+                        <span id="copyNotification">Copied!</span>
+                </div>
+            </div>
+        </section>
+        <section class="Habilidades" id="Habilidades">
+            <div class="Titulo--Habilidades">
+                <h2 class="Titulo--Secciones">Skills</h2>
+            </div>
+            <div class="Habilidades--Imagenes">
+                <article>
+                    <h4>HTML5</h4>
+                    <img src="../Imagenes/icons8-html5-96.png" alt="HTML5 Logo">
+                </article>
+                <article>
+                    <h4>CSS</h4>
+                    <img src="../Imagenes/icons8-css-96.png" alt="CSS3 Logo">
+                </article>
+                <article>
+                    <h4>JavaScript</h4>
+                    <img src="../Imagenes/icons8-javascript-96.png" alt="JavaScript Logo">
+                </article>
+                <article>
+                    <h4>Java</h4>
+                    <img src="../Imagenes/icons8-logotipo-de-java-coffee-cup-96.png" alt="Java Logo">
+                </article>
+                <article>
+                    <!--<h4></h4>-->
+                    <img src="../Imagenes/icons8-mysql-96.png" alt="MySQL Logo">
+                </article>
+                <article>
+                    <h4>Git</h4>
+                    <img src="../Imagenes/icons8-git-96.png" alt="Git Logo">
+                </article>
+            </div>
+        </section>
+        <section class="Experiencia" id="Experiencia">
+            <div class="Titulo--Experiencia">
+                <h2 class="Titulo--Secciones">Experience</h2>
+            </div>
+            <div class="Experiencia--Trabajos">
+                <div class="Trabajo">          
+                        <h4>FreeLance</h4>
+                        <h5>September, 2023 - Present</h5>
+                        <ul>
+                            <li>Full Stack Developer with a focus on robust and efficient solutions</li>
+                            <li>I collaborate with other developers to carry out projects in an efficient and effective manner</li>
+                            <li>Use of version control</li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+        <section class="Educacion" id="Educacion">
+            <div class="Titulo--Eduacion">
+                <h2 class="Titulo--Secciones">Education</h2>
+            </div>
+            <div class="Educacion--Total">
+                <div class="Educacion--Grados" id="DAM">
+                    <h5>September, 2023 - June, 2025</h5>
+                    <h4>CFGS Multiplatform Application Development</h4>
+                    <h5>IES San Juan Bosco, Alcázar de San Juan</h5>
+                    <ul>
+                        <li>We chose the Java language to create robust applications</li>
+                        <li>We explored databases with MySQL and designed efficient queries</li>
+                        <li>We navigated the web world with HTML, CSS, and JavaScript</li>
+                    </ul>
+                </div>
+                <div class="Vacio"></div>
+                <div class="Vacio"></div>
+                <div class="Educacion--Grados" id="BCR">
+                    <h5>September, 2018 - June, 2020</h5>
+                    <h4>Scientific-Technological High School</h4>
+                    <h5>IES San Juan del Castillo, Belmonte</h5>
+                    <ul>
+                        <li>We studied the fundamental laws of physics</li>
+                        <li>We explored the fascinating world of mathematics and its application in technology</li>
+                        <li>We developed critical thinking skills</li>
+                    </ul>
+                </div>                
+            </div>
+        </section>
+        <section class="Proyectos" id="Proyectos">
+            <div class="Titulo--Proyecto">
+                <h2 class="Titulo--Secciones">Projects</h2>
+            </div>
+            <div class="Proyectos--Total">
+                <div class="Proyectos-Items">
+                    <div class="Proyectos--Portada">
+                        <img src="../Imagenes/Projectos/andre-reis-1_DAlXy0wng-unsplash-redimensionada.jpg" alt="Image of a barber shop armchair">
+                    </div>
+                    <div class="Proyectos--Informacion">
+                        <h4>Barbershop Web</h4>
+                        <p>Development of a responsive website for a barbershop, facilitating online booking and improving the digital presence of the business</p>
+                        <p>Saving time for the client and improving the user experience</p>
+                        <div class="Proyectos--Tecnologias">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Astro</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="Proyectos--Botones">
+                            <a href="https://github.com/DanielPMdev" target="_blank">
+                                <img src="../Imagenes/icons8-github.svg" alt="GitHub Logo">
+                                <p>GitHub Link</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>            
+                <div class="Proyectos-Items">
+                    <div class="Proyectos--Portada">
+                        <img src="../Imagenes/Projectos/campofutbol.jpg" alt="Image of a football field with a ball">
+                    </div>
+                    <div class="Proyectos--Informacion">
+                        <h4>Triana CF - Web Page</h4>
+                        <p>Development of a responsive website for the team of my town, facilitating the consultation of information</p>
+                        <p>Management of calendar and classification</p>
+                        <div class="Proyectos--Tecnologias">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Astro</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="Proyectos--Botones">
+                            <a href="https://github.com/DanielPMdev" target="_blank">
+                                <img src="../Imagenes/icons8-github.svg" alt="GitHub Logo">
+                                <p>GitHub Link</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="Footer--Principal">
+                <div class="Footer--Logo">
+                    <img src="../Imagenes/Fondo-Provisional-Negro.png" alt="Personal Brand Background, Daniel Porras">
+                </div>
+                <div class="Footer--Derecha">
+                    <div class="Footer--Texto">
+                        <h2>Portfolio - Daniel Porras</h2>
+                        <p>If you liked my portfolio and I fit into your team, do not hesitate to contact me</p>
+                    </div>
+                    <div class="Footer--Botones">
+                        <a href="#h1">Home</a>
+                        <a href="https://www.linkedin.com/in/daniel-porras-morales/" target="_blank">
+                            <img src="../Imagenes/Icono-SVG-LinkedIn.svg" alt="LinkedIn Icon">
+                        </a>
+                        <a href="https://github.com/DanielPMdev" target="_blank">
+                            <img src="../Imagenes/icons8-github.svg" alt="GitHub Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="Footer--Secundario">
+                <p> © Daniel Porras Morales - All rights reserved</p>
+            </div>
+        </footer>
 </body>
 </html>

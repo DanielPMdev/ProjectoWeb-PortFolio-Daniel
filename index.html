@@ -9,7 +9,6 @@
     <script src="./JavaScript/script.js" defer></script>
 </head>
 <body> 
-    <div class="App">
         <nav>
             <div class="menu--logo">
                 <img src="./Imagenes/Fondo-Provisional-Negro.png" alt="Logo de Marca Personal, Daniel Porras">
@@ -33,7 +32,7 @@
                         <path d="M32,20h2v4h-2z" fill="#000000"></path><path d="M33,35h-25c-1.104,0 -2,-0.896 -2,-2v-25c0,-1.104 0.896,-2 2,-2h14z" fill="#000000"></path>
                         <path d="M26,42l-3,-7h10z" fill="#565860"></path><path d="M19.172,24h-4.36l-1.008,3h-2.804l4.764,-13h2.444l4.792,13h-2.805zM15.444,22h3.101l-1.559,-4.714z" fill="#ffffff"></path></g></g>
                     </svg>
-                    <select name="idioma" id="idioma" class="botonidioma" onchange="cambiarIdioma()">
+                    <select name="idioma" id="idioma" class="botonidioma" onchange="cambiarIdioma('idioma')">
                         <option value="es">Español</option>
                         <option value="en">Ingles</option>
                     </select>
@@ -73,13 +72,13 @@
                                 <path d="M32,20h2v4h-2z" fill="#000000"></path><path d="M33,35h-25c-1.104,0 -2,-0.896 -2,-2v-25c0,-1.104 0.896,-2 2,-2h14z" fill="#000000"></path>
                                 <path d="M26,42l-3,-7h10z" fill="#565860"></path><path d="M19.172,24h-4.36l-1.008,3h-2.804l4.764,-13h2.444l4.792,13h-2.805zM15.444,22h3.101l-1.559,-4.714z" fill="#ffffff"></path></g></g>
                             </svg>
-                            <select name="idioma2" id="idioma2" class="botonidioma" onchange="cambiarIdioma()">
+                            <select name="idioma2" id="idioma2" class="botonidioma" onchange="cambiarIdioma('idioma2')">
                                 <option value="es">Español</option>
                                 <option value="en">Ingles</option>
                             </select>
                         </div>
                         <div class="Apariencia">
-
+                            <!--Implementar botón para cambiar apariencia-->
                         </div>
                     </div>
                 </div>
@@ -92,9 +91,7 @@
             <div class="Presentacion--Abajo">
                 <h1 class="Titulo--H1" id="h1">Daniel Porras</h1>
                 <h2>Estudiante de DAM</h2>
-                <p>
-                    Transformando líneas de código en soluciones creativas
-                </p>
+                <p>Transformando líneas de código en soluciones creativas</p>
                 <div class="Enlaces--Contacto">
                     <a href="./Recursos/Daniel_Porras_Morales-CV.pdf" target="_blank">Descargar CV</a>
                     <a href="https://www.linkedin.com/in/daniel-porras-morales/" target="_blank">
@@ -267,7 +264,5 @@
                 <p> © Daniel Porras Morales - Todos los derechos reservados</p>
             </div>
         </footer>
-
-    </div>
 </body>
 </html>
