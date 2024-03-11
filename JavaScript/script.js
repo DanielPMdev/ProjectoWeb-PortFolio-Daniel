@@ -62,6 +62,6 @@ function cambiarIdioma(id) {
     if (idioma == "es") {
         window.location.href = "../index.html"
     } else if (idioma == "en") {
-        window.location.href = "../Idiomas/ingles.html";
+        window.location.href = "./Idiomas/ingles.html";
     }
 }
